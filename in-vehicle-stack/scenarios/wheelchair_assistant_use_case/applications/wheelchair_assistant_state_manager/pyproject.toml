@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "wheelchair-assistant-state-manager"
+version = "0.1.0"
+description = ""
+authors = ["Enrico Walther (IAV) <enrico.walther@iav.de>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9.18"
+requests = "^2.31.0"
+setuptools = "^69.0.2"
+httpx = {extras = ["http2"], version = "^0.25.2"}
+grpcio = "^1.59.3"
+grpcio-tools = "^1.59.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
